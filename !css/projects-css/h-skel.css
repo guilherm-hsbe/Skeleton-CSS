@@ -1,17 +1,18 @@
-/** LEFT-DIV */
+/*! LEFT-DIV --------------------------------------------- */
+
 .left-d {
-    height: 100vh;
+    height: 100vh !important;
     background-color: #a770e6;
 }
 .left-d div{
     /* spacing */
-    height: 70%;
-    width: 80%;
+    height: 100vh !important;
+    width: 80% !important;
     padding: 15rem 3rem 15rem 3rem;
     text-align: center;
 }
 
-/** TEXT */
+/*? TEXT */
 .ld-content p,h1,h2,h3,h4,h5 {
     color: white;
 }
@@ -19,15 +20,46 @@
     font-size: 5.5rem;
 }
 
-/** BUTTON */
+/*? BUTTON */
 .ld-content a {
     font-size: small;
+    border: 0;
     border-radius: 7px;
     background-color: #ffffff;
-    border: 0;
 }
 .ld-content a:hover {
     background-color: #8c73ff;
     color: white;
     transition: 0.2s;
+}
+
+/*! MIDDLE-DIV --------------------------------------------- */
+.middle-d {
+    height: 100vh !important;
+    margin-top: 3rem;
+    background-color: #d3d3d3;
+}
+
+.md-content {
+    background-color: #c2c2c2;
+}
+
+/*? CODE */
+.md-content code {
+    width: 70%;
+    margin: auto;
+
+    text-align: left;
+    font-size: 1.3rem;
+
+    border: none;
+    border-radius: 6px;
+    background-color: #f3f3f3;
+}
+
+/*! RIGHT-DIV --------------------------------------------- */
+
+.right-d {
+    height: 100vh !important;
+    background-color: rgb(61, 61, 61);
 }
