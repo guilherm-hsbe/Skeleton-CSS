@@ -13,8 +13,8 @@
 }
 
 /*? TEXT */
-.ld-content p,h1,h2,h3,h4,h5 {
-    color: white;
+.ld-content {
+    color: rgb(255, 255, 255);
 }
 .ld-content h1 {
     font-size: 5.5rem;
@@ -62,4 +62,18 @@
 .right-d {
     height: 100vh !important;
     background-color: rgb(61, 61, 61);
+}
+
+/*! RESPONSIVE */
+@media screen and (max-width: 1144px){
+    .left-d, .right-d{
+        display: none;
+    }
+
+    .row {
+        width: auto;
+    }
+    .middle-d {
+        width: 100vw;
+    }
 }
