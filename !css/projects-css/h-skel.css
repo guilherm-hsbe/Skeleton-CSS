@@ -33,6 +33,12 @@
     transition: 0.2s;
 }
 
+/*? IMG */
+.ld-content img {
+    height: 170px;
+    width: 150px;
+}
+
 /*! MIDDLE-DIV --------------------------------------------- */
 .middle-d {
     height: 100vh !important;
@@ -64,7 +70,7 @@
     background-color: rgb(61, 61, 61);
 }
 
-/*! RESPONSIVE */
+/*! RESPONSIVE --------------------------------------------- */
 @media screen and (max-width: 1144px){
     .left-d, .right-d{
         display: none;
